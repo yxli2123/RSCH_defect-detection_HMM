@@ -3,3 +3,7 @@
 *.pptx
 *.key
 *.pdf
+
+# MacOS 
+.DS_Store
+
