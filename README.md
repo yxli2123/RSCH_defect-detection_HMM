@@ -81,6 +81,9 @@ Before and after
 
 <img src="image_sample/image2_results.jpeg" alt="image2_results" style="zoom:50%;" /><img src="image_sample/image2_detection.jpeg" alt="image2_detection" style="zoom:0%;" />
 
+## Weakness
+Still cannot detect for some defects whose features are more like the watermark. For example, the top-left of the first sample.
+
 ## Other failed approaches
 ### pattern match
 - manually design defects features, like a bar, hole, regular or irregular, etc
