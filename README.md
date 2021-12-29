@@ -1,6 +1,9 @@
 
 
 # RSCH_defect-detection_HMM
+## Overview of the Recovery
+Denoising --> Defects detection and restoration --> colorize the black and white films --> interpolation of frames --> super-resolution --> enhancement --> evaluate
+
 ## Features of defects
 - Regular scratches
   - relatively in fixed location of the whole film
