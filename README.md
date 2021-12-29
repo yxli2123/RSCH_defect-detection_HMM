@@ -99,7 +99,7 @@ Tried to use information of sequential frames but also failed because it's hard 
 ### statics model
 Intuition: the intensity of a pixel can be estimated by the neighbor (temporal and spacial) pixels. If the estimated intensity has a huge gap of the real intensity, we say it is a defect.
 
-Failed because of trivial distribution. The estimation if more like an average of the neighbor pixels.
+Failed because of the trivial distribution. The estimation is more like the average of the neighbor pixels.
 
 ## Rethinking
 ### supervised learning
@@ -110,4 +110,4 @@ Failed because of trivial distribution. The estimation if more like an average o
 - Randomly mask out some pixels and train a model to predict them
 - If the estimated intensity has a huge gap of the real intensity, we say it is a defect.
 
-It is the same as the failed statics model, but we use a big model rather than Gaussain so that it can learn a more precise distribution.
+It is the same as the failed statics model, but by using a big model rather than Gaussain I hope it can learn a more precise distribution.
