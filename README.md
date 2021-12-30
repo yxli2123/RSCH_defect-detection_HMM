@@ -102,7 +102,7 @@ Failed because of the same reason as the pattern match
 ### temporal pattern match 
 Tried to use information of sequential frames but also failed because it's hard to design such temporal pattern
 
-### statics model
+### statistics model
 Intuition: the intensity of a pixel can be estimated by the neighbor (temporal and spacial) pixels. If the estimated intensity has a huge gap of the real intensity, we say it is a defect.
 
 Failed because of the trivial distribution. The estimation is more like the average of the neighbor pixels.
